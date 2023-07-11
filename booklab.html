@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BookVax</title>
+    <link rel="stylesheet" type="text/css" href="bv.css">
+</head>
+<body>
+    <div class="container">
+        <div class="user">
+          <form method="post" action="Booklab.php">
+             <div class="head">
+                <h1>BOOK YOUR APPOINTMENT</h1>
+             </div>
+             <div class="book">
+                 <div class="input-box">
+                     <span class="box">FirstName:</span><br>
+                     <input type="text" placeholder="firstname" name="firstname" required>
+                 </div>
+                 <div class="input-box">
+                    <span class="box"> LastName:</span><br>
+                   <input type="text"placeholder="Lastname"name="lastname" required>
+                </div>
+                <div class="input-box">
+                    <span class="box"> Email id:</span><br>
+                   <input type="email" placeholder="Email" name="email" required>
+                </div>
+                <div class="input-box">
+                    <span class="box">Mobile:</span><br>
+                    <input type="text" placeholder="Number" name="mobile" required>
+                </div>
+                <div class="input-box">
+                    <span class="box">DOB:</span><br>
+                    <input type="text" placeholder="DateOfBirth" name="dob" required>
+                </div>
+                <div class="gender">
+                    <span class="gen-title">Gender:</span>
+                    <div class="h11">
+                        <label for="">
+                          <span class="dotone"></span>
+                          <input type="radio" name="gender" >
+                          <span class="male">Male</span>
+                          
+                        </label><br>
+                        <label for="">
+                            <span class="dotone"></span>
+                            <input type="radio" name="gender">
+                            <span class="Female">Female</span>
+                           
+                          </label><br>
+                          <label for="">
+                            <span class="dotone"></span>
+                            <input type="radio"  name="gender" >
+                            <span class="Others">Prefer Not to say</span>
+                        </label>
+                    
+                    </div>
+                  </div>
+                <div class="input-box">
+                    <span class="box">Date:</span><br>
+                    <input type="date" placeholder="Date of your preference" name="date" required>
+                </div>
+                <div class="lab1">
+                    <span class="lab">Test Name:</span><br>
+                    <input type="text" name="test" placeholder="test name" name="testname" required>
+                </div>
+                <div class="drop-down">
+                    <span >Select Lab:</span><br>
+                    <select name="lab" id="hos" >
+                        <option value="lab1">Neuberg Ehrlich Laboratory</option>
+                        <option value="lab1">DNA labs</option>
+                        <option value="lab1">Medon labs</option>
+                        <option value="lab1">BioLine laboratory</option>
+                        <option value="lab1">Aarthi scans and labs</option>
+                        </select>
+                        </div>
+                <div class="drop-down">
+                    <span >Select Test:</span><br>
+                    <select name="test" id="hos" >
+                        <option value="lab1">Blood Test</option>
+                        <option value="lab1">Urine Test</option>
+                        <option value="lab1">Ultrasonography</option>
+                        <option value="lab1">MRI</option>
+                        <option value="lab1">Endoscopy</option>
+                        <option value="lab1">Laparoscopy</option>
+                        <option value="lab1">Arthroscopy</option>
+                        <option value="lab1">Thoracoscopy</option>
+                        <option value="lab1">Bronchoscopy</option>
+                        <option value="lab1">Palpation	All</option>
+                        <option value="lab1">Semen Analysis</option>
+                        <option value="lab1">Rubin's Test</option>
+                        <option value="lab1">Glucose Tolerance</option>
+                        <option value="lab1">Amniocentesis</option>
+                        <option value="lab1">Kidney Function Test</option>
+                        <option value="lab1">Liver Function Test</option>
+                        <option value="lab1">Pregnancy Test</option>
+                        <option value="lab1">Syphilis Test</option>
+                        <option value="lab1">Pulmonary Function Test</option>
+                        <option value="lab1">Dick Test</option>
+
+                        
+                        
+                   </select>
+                </div>
+<br>
+
+                
+                <div class="submit">
+                    <label for="">
+                        <input type="submit" value="BOOK">
+                        
+                    </label>
+                </div>
+               
+            </div>
+            </div>
+        </form>
+    </div>
+    </div>
+</body>
+</html>

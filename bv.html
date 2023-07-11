@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BookVax</title>
+    <link rel="stylesheet" type="text/css" href="bv.css">
+</head>
+<body>
+    <div class="container">
+        <div class="user">
+          <form method="post" action="Bookvax.php">
+             <div class="head">
+                <h1>BOOK YOUR APPOINTMENT</h1>
+             </div>
+             <div class="book">
+                 <div class="input-box">
+                     <span class="box">FirstName:</span><br>
+                     <input type="text" placeholder="firstname" name="firstname" required>
+                 </div>
+                 <div class="input-box">
+                    <span class="box"> LastName:</span><br>
+                   <input type="text"placeholder="Lastname" name="lastname" required>
+                </div>
+                <div class="input-box">
+                    <span class="box"> Email id:</span><br>
+                   <input type="email" placeholder="Email" name="email" required>
+                </div>
+                <div class="input-box">
+                    <span class="box">Mobile:</span><br>
+                    <input type="text" placeholder="Number" name="mobile" required>
+                </div>
+                <div class="input-box">
+                    <span class="box">DOB:</span><br>
+                    <input type="text" placeholder="DateOfBirth" name="dob" required>
+                </div>
+               <div class="gender">
+                    <span class="gen-title">Gender:</span>
+                    <div class="h11">
+                        <label for="">
+                          <span class="dotone"></span>
+                          <input type="radio"name="gender" value="Male" >
+                          <span class="male">Male</span>
+                          
+                        </label><br>
+                        <label for="">
+                            <span class="dotone"></span>
+                            <input type="radio" name="gender" value="Female" >
+                           <span class="female">Female</span>
+                           
+                          </label><br>
+                          <label for="">
+                            <span class="dotone"></span>
+                            <input type="radio"name="gender" value="Others" >
+                            <span class="others">Others</span>
+                        </label>
+                    
+                    </div>
+                  </div>
+                <div class="input-box">
+                    <span class="box">Date:</span><br>
+                    <input type="date" name="date" placeholder="Date of your preference" required>
+                </div>
+                <div class="drop-down">
+                    <span >Select Vaccine:</span><br>
+                    <select name="Vaccine" id="hos" >
+                        <option value="Hos1">BCG(Bacillus Calmette–Guérin)</option>
+                        <option value="Hos1">HEPATITIS B(Birth Dose)</option>
+                        <option value="Hos1">IPV(Inactivated Polio Vaccine)</option>
+                        <option value="Hos1">MEASLES(1st Dose)	</option>
+                        <option value="Hos1">OPV(Birth dose)</option>
+                        <option value="Hos1">OPV (1,2 & 3)</option>
+                        <option value="Hos1">Pentavelant(1,2 & 3)</option>
+                        <option value="Hos1">ROTA VIRUS VACCINE</option>
+                        <option value="Hos1">VITAMIN A(1st Dose)</option>
+                        <option value="Hos1">DPT(1st booster)</option>
+                        <option value="Hos1">DPT(2nd booster)</option>
+                        <option value="Hos1">OPV booster</option>
+                        <option value="Hos1">TT</option>
+                        <option value="Hos1">VITAMIN A(2nd to 9th)</option>
+                        <option value="Hos1">INFLUENZA(IIV4)</option>
+                        <option value="Hos1">Tdap/TD</option>
+                        <option value="Hos1">MMR</option>
+                        <option value="Hos1">VARICELLA</option>
+                        <option value="Hos1">ZOSTER RECOMBINANT</option>
+                        <option value="Hos1">HPV</option>
+                        <option value="Hos1">PNEUMOCOCCAL</option>
+                        <option value="Hos1">HEPATITIS B</option>
+                   </select>
+                </div><br>
+                <div class="drop-down">
+                    <span >Select Hospital:</span><br>
+                    <select name="hospital" id="hos" >
+                        <option value="Hos1">Ramachandra hospital</option>
+                        <option value="Hos1">MIOT hospital(Birth Dose)</option>
+                        <option value="Hos1">SIMS hospital</option>
+                        <option value="Hos1">C.S.I.Kalyani hospital</option>
+                        <option value="Hos1">Billroth hospital</option>
+                        <option value="Hos1">Apollo hospital</option>
+                    </select>
+                       
+                </div>
+                <br>
+                <br>
+                <div class="submit">
+                    <label for="">
+                        <input type="submit" value="BOOK">
+                        
+                    </label>
+                </div>
+               
+            </div>
+            </div>
+        </form>
+    </div>
+    </div>
+</body>
+</html>

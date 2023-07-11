@@ -1,0 +1,148 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing:border-box;
+   
+}
+body{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:10px;
+    background:linear-gradient(135deg,#71b7e6,#9b59b6);
+
+}
+.container{
+    margin:20px;
+    padding:10px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+
+}
+div.container .user{
+    background-color: rgba(0, 0, 0, 0.377);
+    width:90%;
+    border-radius:10px;
+    border:1px solid rgba(255,255,255,0.3);
+    box-shadow: 2px,2px,15px rgba(0,0,0,0.3);
+    padding-bottom: 20px;
+    color:#fff;
+}
+.user{
+    padding-left:35px;
+    padding-right: 35px;
+}
+div.input-box.box{
+    width: 300px;
+    border:1px solid #ddd;
+
+}
+.container .user.book{
+    height:45px;
+    width:100%;
+    outline:none;
+}
+.book input{
+    padding-left: 20px;
+
+}
+
+input[type="text"]{
+    height: 45px;
+    width:100%;
+    padding-left: 15px;
+    border-radius: 5px;
+    border:none;
+}
+
+input[type="email"]{
+    height: 45px;
+    width:100%;
+    padding-left: 15px;
+    border-radius: 5px;
+    border:none;
+}
+input[type="date"]{
+    height: 45px;
+    width:100%;
+    padding-left: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border:none;
+}
+input[type="submit"]{
+    height: 40px;
+    margin:20px;
+    width:120px;
+    text-align: center;
+    position: relative;
+    border:none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    transition: 0.4s;
+    cursor:pointer;
+    font-size: 20px;
+    padding-right: 13px;
+    
+    box-shadow: #0002;
+}
+.submit{
+    padding-left: 120px;
+    
+}
+input[type="submit"]:hover{
+    transform:scale(1.12);
+}
+select{
+    height: 45px;
+    width:305%;
+    padding-left: 15px;
+    border-radius: 5px;
+    border:none;
+}
+.head h1{
+    font-size: 30px;
+    color:#0008;
+    text-align: center;
+    
+}
+
+.book{
+    font-size: 25px;
+}
+.box{
+    font-size: 17px;
+    width:30px;
+}
+.drop-down{
+    position:relative;
+    display:inline-block;
+    font-size:17px;
+}
+
+.drop-down:hover .drop{
+    display:block;
+}
+
+.gen-title{
+    font-size:17px;
+}
+.h11{
+    font-size: 17px;
+}
+@media(max-width: 590px){
+    .container{
+        max-width: 100%;
+    }
+}
+select, option {
+    width: 250px;
+}
+
+option {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
